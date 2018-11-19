@@ -72,13 +72,11 @@ a{
 #taskbar a{
     text-decoration: none;
     position: absolute;
-    font-size: 100%;
+    font-size: 120%;
     margin:0;
     padding:0;
     vertical-align: middle;
     text-align: center;
-    height: 100%;
-
 }
 #taskbar img{
     height: 100%;
