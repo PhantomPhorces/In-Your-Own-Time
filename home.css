@@ -71,15 +71,21 @@ a{
 }
 #taskbar a{
     text-decoration: none;
-    position: absolute;
     font-size: 120%;
-    margin:0;
-    padding:0;
     vertical-align: middle;
     text-align: center;
+    display: inline;
+}
+#taskbar a:hover{
+    text-decoration: underline ;
+    text-decoration-color: #3498db ;
 }
 #taskbar img{
     height: 100%;
     position: absolute;
     left: 1%;
+}
+#links{
+    display: inline-block;
+    position: absolute;
 }
