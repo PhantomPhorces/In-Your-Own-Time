@@ -5,50 +5,10 @@
     margin: 0;
     overflow-x: hidden;
 }
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(255, 255, 255);
-    line-height: 150%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-}
-.change {
-    border: none;
-    height: 2px;
-    background: rgba(34, 34, 34, 0.507);
-    width: 90%;
-    margin: 5%;
-}
-.lparagraph{
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 35%;
-    float: left;
-}
-.quote{
-    color: gray;
-    font-size: 15px;
-}
-.rpic{
-    margin:17;
-    width:30%;
-    height: auto;
-}
 #footer{
     background-color: rgb(41, 41, 41);
     display: inline-block;
     width: 100%;
-    color: white;
-}
-.footertext{
-    color: rgb(194, 194, 194);
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 1%;
-    width: 35%;
-    font-weight: 100;
-    font-size: 15px;
 }
 .icon{
     height: 15px;
@@ -88,4 +48,73 @@ a{
 #links{
     display: inline-block;
     position: absolute;
+}body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    line-height: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.change {
+    border: none;
+    height: 2px;
+    background: rgba(34, 34, 34, 0.507);
+    width: 90%;
+    margin: 5%;
+}
+.lparagraph{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 35%;
+    float: left;
+    margin-top:1.5%;
+    margin-bottom:1.5%;
+}
+.rparagraph{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 35%;
+    float: right;
+    margin-top:1.5%;
+    margin-bottom:1.5%;
+}
+.quote{
+    color: gray;
+    font-size: 15px;
+}
+.rpic{
+    margin:17px;
+    width:30%;
+    height: auto;
+    margin-top:1.5%;
+    margin-bottom:1.5%;
+}
+.lpic{
+    margin:17px;
+    width:30%;
+    height: auto;
+    float: left;
+    margin-top:1.5%;
+    margin-bottom:1.5%;
+}
+#contact{
+    float:left;
+    color: rgb(194, 194, 194);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    width: 30%;
+    font-weight: 100;
+    font-size: 15px;
+}
+#credit{
+    float: right;
+    color: rgb(194, 194, 194);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    width: 30%;
+    font-weight: 100;
+    font-size: 15px;
 }
