@@ -1,23 +1,27 @@
-#header{
-    width:100%;
+#header {
+    width: 100%;
     height: auto;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
 }
-.footer{
+
+.footer {
     background-color: rgb(41, 41, 41);
     display: inline-block;
     width: 100%;
 }
-.icon{
+
+.icon {
     height: 15px;
     width: 15px;
 }
-a{
+
+a {
     color: rgb(194, 194, 194);
 }
-#taskbar{
+
+#taskbar {
     position: fixed;
     text-align: center;
     width: 100%;
@@ -25,30 +29,38 @@ a{
     text-decoration: none;
     text-emphasis: none;
     font-weight: 100;
-    background-color:rgb(41, 41, 41);
+    background-color: rgb(41, 41, 41);
     height: 5%;
 
 }
-#taskbar a{
+
+#taskbar a {
     text-decoration: none;
     font-size: 120%;
     vertical-align: middle;
     text-align: center;
     display: inline;
 }
-#taskbar a:hover{
-    text-decoration: underline ;
-    text-decoration-color: #3498db ;
-}
-#taskbar img{
+
+/*#taskbar a:hover {
+    animation-name: underline;
+    animation-duration: 0.4s;
+    text-decoration: underline;
+    text-decoration-color: #3498db;
+}*/
+
+#taskbar img {
     height: 100%;
     position: absolute;
     left: 1%;
 }
-#links{
+
+#links {
     display: inline-block;
     position: absolute;
-}body{
+}
+
+body {
     margin: 0;
     padding: 0;
     background-color: rgb(255, 255, 255);
@@ -56,6 +68,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
 }
+
 .change {
     border: none;
     height: 2px;
@@ -63,43 +76,49 @@ a{
     width: 90%;
     margin: 5%;
 }
-.lparagraph{
+
+.lparagraph {
     margin-left: 10%;
     margin-right: 10%;
     width: 35%;
     float: left;
-    margin-top:1.5%;
-    margin-bottom:1.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
-.rparagraph{
+
+.rparagraph {
     margin-left: 10%;
     margin-right: 10%;
     width: 35%;
     float: right;
-    margin-top:1.5%;
-    margin-bottom:1.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
-.quote{
+
+.quote {
     color: gray;
     font-size: 15px;
 }
-.rpic{
-    margin:17px;
-    width:30%;
+
+.rpic {
+    margin: 17px;
+    width: 30%;
     height: auto;
-    margin-top:1.5%;
-    margin-bottom:1.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
-.lpic{
-    margin:17px;
-    width:30%;
+
+.lpic {
+    margin: 17px;
+    width: 30%;
     height: auto;
     float: left;
-    margin-top:1.5%;
-    margin-bottom:1.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
-#contact{
-    float:left;
+
+#contact {
+    float: left;
     color: rgb(194, 194, 194);
     margin-left: 10%;
     margin-right: 10%;
@@ -108,7 +127,8 @@ a{
     font-weight: 100;
     font-size: 15px;
 }
-#credit{
+
+#credit {
     float: right;
     color: rgb(194, 194, 194);
     margin-left: 10%;
@@ -118,21 +138,62 @@ a{
     font-weight: 100;
     font-size: 15px;
 }
-.leftThird , .middleThird, .rightThird{
+
+.leftThird,
+.middleThird,
+.rightThird {
     text-align: center;
-    width:25%;
+    width: 25%;
     float: left;
     font-weight: 100;
 }
-.leftThird{
+
+.leftThird {
     margin-left: 10%;
-    margin-right:2.5%;
+    margin-right: 2.5%;
 }
-.rightThird{
+
+.rightThird {
     margin-right: 10%;
-    margin-left:2.5%
+    margin-left: 2.5%
 }
-.middleThird img , .leftThird img ,  .rightThird img{
-    width:50%;
-    height:auto;
+
+.middleThird img,
+.leftThird img,
+.rightThird img {
+    width: 50%;
+    height: auto;
 }
+
+/*@keyframes underline {
+    0% {
+        text-decoration: underline;
+        text-decoration-color: #3498db00;
+        
+    }
+
+    20% {
+        text-decoration: underline;
+        text-decoration-color: #3498db33;
+    }
+
+    40% {
+        text-decoration: underline;
+        text-decoration-color: #3498db66;
+    }
+
+    60% {
+        text-decoration: underline;
+        text-decoration-color: #3498db99;
+    }
+
+    80% {
+        text-decoration: underline;
+        text-decoration-color: #3498dbcc;
+    }
+
+    100% {
+        text-decoration: underline;
+        text-decoration-color: #3498db;
+    }
+}*/
